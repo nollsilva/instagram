@@ -15,6 +15,7 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .instagram-wrapper{
@@ -32,7 +33,36 @@ body{
     width: 50%;
 }
 
-.instagram-phone img{
-    height: 50px;
-    width: 30px;
+.img1 {
+    height: 50em;
+    width: 60em;
+}
+
+.img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.instagram-continue {
+    width: 50%
+}
+
+.instagram-logo {
+    margin-right: 40px;
+    height: 10em;
+    width: 20em;
+}
+
+.container1 {
+    /* display: flex;
+    justify-content: start;
+    align-items: center; */
+    text-align: center;
+    border: solid 1px #000;
+    margin-bottom: 100px;
+}
+
+.group {
+    text-align: center;
 }
